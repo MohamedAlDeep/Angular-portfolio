@@ -1,0 +1,52 @@
+
+li{
+  list-style: none;
+  display: inline;
+  margin: 2rem;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font:bold;
+  font-size: 2em;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+}
+button{
+  margin: 2rem;
+}
+h2{
+  margin: 2rem;
+}
+input{
+  margin: 2rem;
+  border-color:black;
+}
+textarea{
+  margin: 2rem;
+  border-color: black;
+}
+
+@media screen and (max-width: 480px) {
+ li{
+  margin: 1.5em;
+ }
+ a{
+  font-size: 1.5em;
+ }
+ h2{
+  margin: 1.5rem;
+ }
+ input{
+    margin: 1.5rem;
+ }
+ button{
+  margin: 1.5rem;
+}
+}
+.active{
+  text-decoration: underline;
+  color: rgb(37, 117, 90);
+}
