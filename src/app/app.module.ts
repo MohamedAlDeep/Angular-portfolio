@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router'; // CLI imports router
 
 import { BrowserModule } from '@angular/platform-browser';
 
+import { HttpClientModule } from '@angular/common/http';
+
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { ProjectsComponent } from './projects/projects.component';
@@ -25,7 +27,8 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    HttpClientModule,
   ],
   exports: [RouterModule],
   providers: [],
