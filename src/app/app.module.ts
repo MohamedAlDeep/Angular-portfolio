@@ -10,6 +10,7 @@ import { NavComponent } from './nav/nav.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { CertificateComponent } from './certificate/certificate.component';
+import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
@@ -23,7 +24,8 @@ const routes: Routes = [
     NavComponent,
     ProjectsComponent,
     AboutComponent,
-    CertificateComponent
+    CertificateComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,14 @@
+p{
+  font-size: 1.7rem;
+  width: 61em;
+  padding: 2rem;
+  max-width: fit-content;
+}
+@media screen and (max-width: 480px) {
+  p{
+    width: 47em;
+    padding: 1.5rem;
+
+  }
+
+}

@@ -1,4 +1,6 @@
-
+/* .par{
+    position: relative;
+} */
 li{
   list-style: none;
   display: inline;
@@ -10,10 +12,7 @@ a{
   font:bold;
   font-size: 2em;
 }
-footer{
-  position: absolute;
-  bottom: 0;
-}
+
 button{
   margin: 2rem;
 }
