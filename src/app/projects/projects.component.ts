@@ -6,9 +6,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent{
-  routerName;
+
   constructor(private router: Router ) {
-    this.routerName = this.router.url;
+
 
    }
 }
