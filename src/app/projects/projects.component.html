@@ -1,6 +1,18 @@
 
+
 <h1>My Projects / Contributions</h1>
 
-<h2>Github Repositories</h2>
+<div class="grid">
 
-<router-outlet></router-outlet>
+    <div class="grid-color" *ngFor="let rep of repos">
+      <p >
+        <a class="color" href="{{rep.html_url}}"><h4>{{rep.name}}</h4></a>
+        <li class="color">Description: {{rep.description}}</li>
+        <br>
+        <li class="color">Language: {{rep.language}}</li>
+        <br>
+        <li class="color" >Forked: {{rep.fork}}</li>
+      </p>
+    </div>
+    <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,47 @@
+li{
+  list-style: none;
+}
+.color{
+  color:black;
+  overflow-wrap: break-word;
+}
+p{
+  padding:2rem;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+a:hover{
+  color: rgb(37, 117, 90);
+  font-weight: 600;
+}
+h1{
+  margin: 2rem;
+
+}
+div{
+  margin: 2rem;
+
+}
+@media screen and (max-width: 480px) {
+ div{
+  margin: 1.5rem;
+ }
+ h1{
+  margin: 1.5rem;
+ }
+
+}
+
+.grid{
+  margin: 0;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, 30em);
+
+}
+/* .grid-color{
+  background-color: red;
+} */
