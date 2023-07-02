@@ -1,8 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.Main{
+  background-color:rgb(37, 117, 90);
+  border-radius: 0.5rem;
+  margin: 2rem;
+}
 p{
   font-size: 1.7rem;
   width: 61em;
   padding: 2rem;
   max-width: fit-content;
+  color: #eee4d3;
+  font-family: 'Rubik', sans-serif;
 }
 @media screen and (max-width: 480px) {
   p{
