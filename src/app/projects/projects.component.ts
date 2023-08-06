@@ -11,7 +11,8 @@ import { catchError, retry } from 'rxjs/operators';
 export class ProjectsComponent{
   configUrl = '';
   repos: any;
-  
+  state = false
+
   constructor(private http: HttpClient ) {
 
   }
@@ -22,8 +23,8 @@ export class ProjectsComponent{
   showConfig() {
     this.getConfig()
       .subscribe((data) => {
-			
 		this.repos = data
+		this.state = true
         })
     }
 	

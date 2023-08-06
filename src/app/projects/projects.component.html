@@ -2,7 +2,7 @@
 
 <h1>My Projects / Contributions</h1>
 
-<div class="grid">
+<div class="grid"*ngIf="state == true; else block">
     <div class="grid-color" *ngFor="let rep of repos">
       <p >
         <a class="color" href="{{rep.html_url}}"><h4>{{rep.name}}</h4></a>
@@ -13,7 +13,17 @@
         <li class="color"*ngIf="rep.fork == true; else elseBlock" >Forked: ✅</li>
 		<ng-template #elseBlock><li class="color">Forked: ❌</li></ng-template>
       </p>
-    </div>
+    </div> 
+	
+	
     <router-outlet></router-outlet>
 </div>
 
+<ng-template #block> 
+		 <div class="grid-color">
+		  <h1 class="loading">
+			Loading data
+		  </h1>
+		</div>
+		 <router-outlet></router-outlet>
+	</ng-template>
