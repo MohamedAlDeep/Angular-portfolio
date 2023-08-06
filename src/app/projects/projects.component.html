@@ -10,8 +10,10 @@
         <br>
         <li class="color">Language: {{rep.language}}</li>
         <br>
-        <li class="color" >Forked: {{rep.fork}}</li>
+        <li class="color"*ngIf="rep.fork == true; else elseBlock" >Forked: ✅</li>
+		<ng-template #elseBlock><li class="color">Forked: ❌</li></ng-template>
       </p>
     </div>
     <router-outlet></router-outlet>
 </div>
+
