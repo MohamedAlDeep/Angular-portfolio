@@ -49,6 +49,7 @@ div{
   background-color: rgb(37, 117, 90);
   border-radius: 0.5rem;
   margin: 2rem;
+  justify-content: center;
 }
 .grid-color{
   background-color: #eee4d3;

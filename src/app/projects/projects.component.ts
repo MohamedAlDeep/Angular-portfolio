@@ -12,10 +12,12 @@ export class ProjectsComponent{
   configUrl = '';
   repos: any;
   state = false
-
+  
+  
   constructor(private http: HttpClient ) {
 
   }
+  
 
   getConfig() {
   return this.http.get("https://api.github.com/users/MohamedAlDeep/repos");
