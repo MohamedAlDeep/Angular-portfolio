@@ -13,6 +13,11 @@ li{
   display: inline;
   margin: 2rem;
 }
+li::selection{
+  background-color: rgb(37, 117, 90);
+  color: #eee4d3;
+
+}
 a{
   text-decoration: none;
   color: black;
@@ -20,7 +25,11 @@ a{
   font-size: 2em;
   font-family: 'Rubik', sans-serif;
 }
+a::selection{
+  background-color: rgb(37, 117, 90);
+  color: #eee4d3;
 
+}
 a:hover{
     color: rgb(37, 117, 90);
 }

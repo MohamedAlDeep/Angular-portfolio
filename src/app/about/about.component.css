@@ -3,6 +3,16 @@
 .main{
   padding: 2rem;
 }
+.main::selection{
+  background-color: rgb(37, 117, 90);
+  color: #eee4d3;
+
+}
+div::selection{
+  background-color: rgb(37, 117, 90);
+  color: #eee4d3;
+
+}
 h1{
   padding-left: 2rem;
   padding-bottom: 0;
@@ -12,7 +22,31 @@ h1{
   font-family: 'Rubik', sans-serif;
   margin: 2rem;
 }
+h1::selection{
+  background-color: rgb(37, 117, 90);
+  color: #eee4d3;
 
+}
+h2::selection{
+  background-color: rgb(37, 117, 90);
+  color: #eee4d3;
+
+}
+li::selection{
+  background-color: rgb(37, 117, 90);
+  color: #eee4d3;
+
+}
+ul::selection{
+  background-color: rgb(37, 117, 90);
+  color: #eee4d3;
+
+}
+b::selection{
+  background-color: rgb(37, 117, 90);
+  color: #eee4d3;
+
+}
 @media screen and (max-width: 480px) {
   .main{
     padding: 1.5rem;

@@ -10,6 +10,11 @@ li{
   margin: 2rem;
 
 }
+li::selection{
+  background-color: rgb(37, 117, 90);
+  color: #eee4d3;
+
+}
 a{
   text-decoration: none;
   color: black;
@@ -18,12 +23,21 @@ a{
   background-color: #eee4d3;
   font-family: 'Rubik', sans-serif;
 }
+a::selection{
+  background-color: rgb(37, 117, 90);
+  color: #eee4d3;
 
+}
 button{
   margin: 2rem;
 }
 h2{
   margin: 2rem;
+}
+b::selection{
+  background-color: rgb(37, 117, 90);
+  color: #eee4d3;
+
 }
 input{
   margin: 2rem;

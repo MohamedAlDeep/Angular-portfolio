@@ -6,6 +6,17 @@
   border-radius: 0.5rem;
   margin: 2rem;
 }
+p::selection{
+  background-color: #eee4d3;
+  color:  rgb(37, 117, 90);
+
+}
+b::selection{
+  background-color: #eee4d3;
+  color:  rgb(37, 117, 90);
+
+}
+
 p{
   font-size: 1.7rem;
   width: 61em;
